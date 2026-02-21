@@ -34,7 +34,7 @@ A Google Colab notebook for training LoRA adapters for the [Anima](https://huggi
 |---|---|
 | Google Colab | Free or Pro. Pro recommended for longer runs. |
 | GPU runtime | Required. Set Runtime → Change runtime type → T4 GPU or better. |
-| ~6 GB VRAM | Default settings (dim=20, res=768). Reduce to dim=8 / res=512 for free-tier T4. |
+| ~6 GB VRAM | Default settings (dim=20, res=768) works on free-tier T4.  Reduce to dim=8 / res=512 for faster training. |
 | Training images | Flat directory of images + matching `.txt` caption files. |
 
 ---
