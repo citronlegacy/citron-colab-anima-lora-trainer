@@ -9,7 +9,7 @@ A Google Colab notebook for training LoRA adapters for the [Anima](https://huggi
 | | |
 |:--|:--|
 | 📦 **GitHub** | <a href="https://github.com/citronlegacy/citron-colab-anima-lora-trainer" target="_blank"><img src="https://img.shields.io/badge/GitHub-citron--colab--anima--lora--trainer-181717?logo=github" alt="GitHub"></a> |
-| 🚀 **Open in Colab** | <a href="https://colab.research.google.com/github/citronlegacy/citron-colab-anima-lora-trainer/blob/main/ANIMA_Trainer_v4.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a> |
+| 🚀 **Open in Colab** | <a href="https://colab.research.google.com/github/citronlegacy/citron-colab-anima-lora-trainer/blob/main/ANIMA_Trainer_v5.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a> |
 | 🤖 **CivitAI** | <a href="https://civitai.com/user/CitronLegacy/models" target="_blank"><img src="https://img.shields.io/badge/CivitAI-Models-blue.svg" alt="CivitAI"></a> |
 
 
@@ -41,7 +41,7 @@ A Google Colab notebook for training LoRA adapters for the [Anima](https://huggi
 
 ## Quick Start
 
-1. Open [`ANIMA_Trainer_v4.ipynb`](ANIMA_Trainer_v4.ipynb) in Google Colab.
+1. Open [`ANIMA_Trainer_v5.ipynb`](ANIMA_Trainer_v5.ipynb) in Google Colab.
 2. **Run cell 2 (Setup)** — installs dependencies and downloads the three Anima model files (~5.6 GB total). Enable `mount_drive` if you want to use Google Drive.
 3. *(Optional)* **Run cell 3 (Unzip)** — unzip a dataset archive uploaded to `/content/`.
 4. **Run cell 4 (Training Settings)** — set your project name, image directory, and hyperparameters. The cell will estimate your total training steps and warn you if they exceed 1000.
@@ -149,7 +149,8 @@ Load the `.safetensors` file in any Anima-compatible inference pipeline as a LoR
 
 | Notebook | Description |
 |---|---|
-| `ANIMA_Trainer_v4.ipynb` | **Current version.** Full pipeline with Drive support, step estimator, and live streaming output. |
+| `ANIMA_Trainer_v5.ipynb` | **Current version.** Added Support for Anime-Prevew3-Base. |
+| `ANIMA_Trainer_v4.ipynb` | Previous version. Full pipeline with Drive support, step estimator, and live streaming output. |
 | `ANIMA_Trainer_v2.ipynb` | Previous version. Full training pipeline, no step estimator. |
 | `ANIMA_Trainer_v1.ipynb` | Initial version. Simpler structure, some duplicated function definitions. |
 
